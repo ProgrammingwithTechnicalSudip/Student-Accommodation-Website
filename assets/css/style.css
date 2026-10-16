@@ -1,0 +1,80 @@
+body{background:#f6f8fc;
+    color:#1f2937
+}
+.hero{
+    background:linear-gradient(135deg,#0d6efd,#5b7cfa);
+    color:#fff;
+    border-radius:0 0 28px 28px
+}
+.hero h1{
+    font-size:clamp(2rem,5vw,4rem);
+    font-weight:800
+}
+.search-card{
+    margin-top:-45px;
+    position:relative;
+    z-index:3
+}
+.property-card
+{
+    border:0;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.25s;
+    box-shadow:0 8px 24px
+     rgba(31,41,55,.08)
+    }
+    .property-card:hover{
+        transform:translateY(-4px);
+        box-shadow:0 14px 32px rgba(31,41,55,.14)
+    }
+    .property-img{
+        height:210px;
+        object-fit:cover
+    }
+    .badge-soft
+    {
+        background:#e8f1ff;
+        color:#0d6efd
+    }
+    .rating{
+        color:#f59e0b
+    }
+    .amenity{
+        background:#f1f5f9;
+        border-radius:10px;
+        padding:8px 12px
+    }
+    .detail-img{
+        height:430px;
+        object-fit:cover;
+        border-radius:18px
+    }
+    .thumb{
+        height:90px;
+        width:100%;
+        object-fit:cover;
+        border-radius:10px;
+        cursor:pointer
+    }
+    .empty{
+        border:2px dashed #d7deea;
+        border-radius:18px;
+        background:#fff
+    }
+    .spinner-small{
+        width:1rem;
+        height:1rem
+    }
+    .auth-card{
+        max-width:480px;
+        margin:60px auto
+    }
+    .hero-stat{
+        background:rgba(255,255,255,.14);
+        border:1px solid rgba(255,255,255,.2);
+        border-radius:14px;
+        padding:15px
+    }
+    .react-box{
+        min-height:80px}.form-control,.form-select{border-radius:10px}.btn{border-radius:10px}.section-title{font-weight:800}.price{font-size:1.25rem;font-weight:800;color:#0d6efd}
